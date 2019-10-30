@@ -4,7 +4,7 @@ To train the model without using the Saliency Sampler:
 `python3 inaturalist_no_sampler.py <number of epochs> 0 <batch size> <decimation factor> <state dictionary path (opt)>` 
 
 To train the model with the Saliency Sampler:
-`python3 inaturalist_no_sampler.py <number of epochs> <number of epochs with blurring> <batch size> <decimation factor> <state dictionary path (opt)>` 
+`python3 inaturalist_with_sampler.py <number of epochs> <number of epochs with blurring> <batch size> <decimation factor> <state dictionary path (opt)>` 
 
 
 A GPU compatible with the version of PyTorch is neccesary. 
